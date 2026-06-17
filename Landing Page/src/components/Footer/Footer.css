@@ -1,0 +1,291 @@
+.footer {
+
+  background:#171717;
+
+  padding:64px 0;
+
+  color:white;
+
+}
+
+
+
+.footer-container {
+
+  max-width:1320px;
+
+  margin:0 auto;
+
+  padding:0 16px;
+
+
+  display:grid;
+
+  grid-template-columns:1fr;
+
+  gap:40px;
+
+}
+
+
+
+/* Logo */
+
+
+.footer-logo {
+
+  display:flex;
+
+  align-items:center;
+
+  gap:8px;
+
+}
+
+
+
+.footer-logo img {
+
+  height:28px;
+
+}
+
+
+.footer-logo span {
+
+  font-size:20px;
+
+  font-weight:700;
+
+}
+
+
+
+
+
+.footer-text {
+
+  margin-top:24px;
+
+  font-size:14px;
+
+  color:#737373;
+
+}
+
+
+
+.footer-text + .footer-text {
+
+  margin-top:0;
+
+}
+
+
+
+/* Social */
+
+.social-icons {
+
+  display:flex;
+
+  gap:16px;
+
+  margin-top:24px;
+
+}
+
+
+
+.social-icons a {
+
+  opacity:.8;
+
+  transition:.3s;
+
+}
+
+
+
+.social-icons a:hover {
+
+  opacity:1;
+
+}
+
+
+
+.social-icons img {
+
+  width:20px;
+
+  height:20px;
+
+}
+
+
+
+
+
+/* Titles */
+
+.footer-title {
+
+  font-size:18px;
+
+  font-weight:600;
+
+  color:#737373;
+
+}
+
+
+
+
+
+/* Links */
+
+.footer-links {
+
+  list-style:none;
+
+  padding:0;
+
+  margin-top:24px;
+
+}
+
+
+
+.footer-links li {
+
+  margin-bottom:12px;
+
+}
+
+
+
+.footer-links a {
+
+  color:#737373;
+
+  text-decoration:none;
+
+  font-size:14px;
+
+  transition:.3s;
+
+}
+
+
+
+.footer-links a:hover {
+
+  color:white;
+
+}
+
+
+
+
+
+/* Subscribe */
+
+.subscribe-form {
+
+  position:relative;
+
+  margin-top:24px;
+
+}
+
+
+
+.subscribe-form input {
+
+  width:100%;
+
+  padding:12px 48px 12px 16px;
+
+
+  border-radius:6px;
+
+  border:1px solid rgba(115,115,115,.4);
+
+  background:#262626;
+
+  color:white;
+
+  outline:none;
+
+}
+
+
+
+.subscribe-form input::placeholder {
+
+  color:#737373;
+
+}
+
+
+
+.subscribe-form input:focus {
+
+  border-color:#4caf50;
+
+}
+
+
+
+
+
+.subscribe-form button {
+
+  position:absolute;
+
+  right:12px;
+
+  top:50%;
+
+  transform:translateY(-50%);
+
+
+  background:none;
+
+  border:0;
+
+  cursor:pointer;
+
+}
+
+
+
+.subscribe-form img {
+
+  width:20px;
+
+  height:20px;
+
+}
+
+
+
+
+
+/* Desktop */
+
+@media(min-width:992px){
+
+
+.footer-container {
+
+  grid-template-columns:
+  1.2fr 1fr 1fr 1.2fr;
+
+  padding:0 64px;
+
+}
+
+
+}

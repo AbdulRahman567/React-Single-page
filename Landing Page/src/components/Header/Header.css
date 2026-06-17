@@ -1,0 +1,278 @@
+.header {
+
+  position:sticky;
+
+  top:0;
+
+  z-index:50;
+
+  background:white;
+
+  box-shadow:0 2px 8px rgba(0,0,0,.08);
+
+}
+
+
+
+
+.header-container {
+
+
+  max-width:1320px;
+
+  margin:0 auto;
+
+  padding:16px;
+
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:space-between;
+
+}
+
+
+
+
+/* Logo */
+
+.logo {
+
+  display:flex;
+
+  align-items:center;
+
+  gap:8px;
+
+  text-decoration:none;
+
+}
+
+
+
+.logo img {
+
+  height:28px;
+
+}
+
+
+
+.logo span {
+
+  font-size:20px;
+
+  font-weight:700;
+
+  color:#171717;
+
+}
+
+
+
+
+
+/* Desktop Navigation */
+
+.desktop-nav {
+
+  display:none;
+
+  align-items:center;
+
+  gap:32px;
+
+}
+
+
+
+.desktop-nav a {
+
+  text-decoration:none;
+
+  font-size:14px;
+
+  color:#262626;
+
+  transition:.3s;
+
+}
+
+
+
+.desktop-nav a:hover {
+
+  color:#4caf50;
+
+}
+
+
+
+
+
+
+/* Header Buttons */
+
+.header-buttons {
+
+  display:none;
+
+  align-items:center;
+
+  gap:12px;
+
+}
+
+
+
+
+
+
+/* Mobile Menu Icon */
+
+.menu-btn {
+
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:6px;
+
+
+  padding:8px;
+
+  border:0;
+
+  background:white;
+
+  cursor:pointer;
+
+}
+
+
+
+.menu-btn span {
+
+
+  width:24px;
+
+  height:2px;
+
+  background:#262626;
+
+  display:block;
+
+}
+
+
+
+
+
+
+
+/* Mobile Dropdown */
+
+.mobile-menu {
+
+
+  border-top:1px solid #d4d4d4;
+
+  background:white;
+
+  padding:16px;
+
+
+}
+
+
+
+.mobile-menu nav {
+
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:16px;
+
+}
+
+
+
+.mobile-menu a {
+
+
+  color:#262626;
+
+  text-decoration:none;
+
+  font-size:14px;
+
+}
+
+
+
+
+
+.mobile-buttons {
+
+
+  margin-top:16px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:12px;
+
+}
+
+
+
+
+.mobile-buttons button {
+
+  width:100%;
+
+}
+
+
+
+
+
+/* Desktop */
+
+@media(min-width:992px){
+
+
+.header-container{
+
+  padding:16px 64px;
+
+}
+
+
+
+.desktop-nav,
+
+.header-buttons{
+
+  display:flex;
+
+}
+
+
+
+.menu-btn,
+
+.mobile-menu{
+
+  display:none;
+
+}
+
+
+}
